@@ -1,0 +1,171 @@
+/* import the Azeret Mono font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: none;
+   outline: none;
+}
+
+html, body {
+   font-family: Azeret Mono;
+   width: 100vw;
+}
+
+.btn {
+   padding: 0.5rem;
+   background-color: white;
+   font-family: inherit;
+   border: 1px solid gray;
+   font-weight: 600;
+   font-size: 1rem;
+   border-radius: 0.2rem;
+   -webkit-border-radius: 0.2rem;
+   -moz-border-radius: 0.2rem;
+   -ms-border-radius: 0.2rem;
+   -o-border-radius: 0.2rem;
+   cursor: pointer;
+   text-transform: capitalize;
+}
+
+.title {
+   font-family: inherit;
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+.subtitle {
+   color: rgb(71, 71, 71);
+}
+
+.description {
+   color: rgb(91, 91, 91);
+}
+
+.section {
+   width: 100%;
+   max-width: 1200px;
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   padding: 2rem;
+   border: 1px solid green;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+}
+
+/* HEADER SECTION */
+#header {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+/* nav bar */
+#header nav {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem;
+   /* border: 1px solid black; */
+   box-shadow: 5px 5px 12px gray;
+}
+
+header nav > .nav-container {
+   width: 90%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+/* hero section */
+#header #hero-section {
+   width: 100%;
+   background-image: url(../assets/Hero-bg.png);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem;
+}
+
+#hero-section .hero-container {
+   width: 90%;
+   max-width: 1000px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+   flex-direction: column;
+}
+
+#hero-section .hero-container .hero-description {
+   color: rgb(91, 91, 91);
+}
+
+.btn-hero {
+   background-color: black;
+   color: white;
+   border: 1px solid black;
+}
+
+/* main */
+#main {
+   width: 100%;
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   gap: 3rem;
+   flex-direction: column;
+}
+
+
+
+/* 1st section */
+.section > .description {
+   text-align: center;
+}
+
+.article {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1rem;
+   padding: 1rem;
+   background-color: white;
+   box-shadow: 3px 3px 10px gray;
+}
+
+.article .article-content {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+   gap: 1rem;
+}
+
+/* section 2 - video section */
+.video-container {
+   width: 100%;
+   padding: 2rem;
+   border-radius: 1rem;
+   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   -ms-border-radius: 1rem;
+   -o-border-radius: 1rem;
+   border: 1px solid gray;
+}
+
+.video-container .video {
+   width: 100%;
+   height: 450px;
+}
+
+
+
