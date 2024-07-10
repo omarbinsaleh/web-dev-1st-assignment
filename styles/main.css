@@ -29,6 +29,16 @@ html, body {
    -o-border-radius: 0.2rem;
    cursor: pointer;
    text-transform: capitalize;
+   transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -o-transition: all 0.25s ease;
+}
+
+.btn:hover {
+   background-color: black;
+   color: white;
 }
 
 .title {
@@ -144,6 +154,7 @@ header nav > .nav-container {
 }
 
 .article {
+   width: 100%;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -154,6 +165,7 @@ header nav > .nav-container {
 }
 
 .article .article-content {
+   height: 100%;
    display: flex;
    flex-direction: column;
    align-items: flex-start;
@@ -187,7 +199,7 @@ header nav > .nav-container {
    justify-content: space-between;
    gap: 1rem;
    overflow: auto;
-   padding: 1rem;
+   padding: 0 0 1rem 0;
 }
 
 .card-container .card {
@@ -195,10 +207,8 @@ header nav > .nav-container {
    flex-direction: column;
    align-items: flex-start;
    justify-content: space-between;
-   width: 30%;
-   min-width: 300px;
-   max-width: 400px;
-   /* max-height: 500px; */
+   min-width: 280px;
+   max-width: 33%;
    padding: 1rem;
    gap: 1.5rem;
    border-radius: 1rem;
@@ -209,15 +219,15 @@ header nav > .nav-container {
 }
 
 .card-html {
-   background-color: rgb(255, 239, 188);
+   background-color: rgb(255, 238, 180);
 }
 
 .card-css {
-   background-color: rgb(197, 233, 255);
+   background-color: rgb(202, 235, 255);
 }
 
 .card-js {
-   background-color: rgb(255, 248, 210);
+   background-color: rgb(255, 249, 214);
 }
 
 .btn-card {
@@ -285,7 +295,7 @@ footer {
    display: flex;
    align-items: center;
    justify-content: center;
-   padding: 2rem;
+   /* padding: 0.3rem; */
    background-color: rgb(217, 217, 217);
 }
 
@@ -296,6 +306,8 @@ footer {
    align-items: center;
    justify-content: space-between;
    flex-direction: row;
+   flex-wrap: wrap;
+   padding: 1rem;
 }
 
 
