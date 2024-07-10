@@ -233,6 +233,14 @@ header nav > .nav-container {
    
 }
 
+.title-feedback {
+   color: white;
+}
+
+.description-feedback {
+   color: rgb(193, 193, 193);
+}
+
 input {
    padding: 0.8rem;
    font-family: inherit;
@@ -242,7 +250,6 @@ input {
    -moz-border-radius: 0.5rem;
    -ms-border-radius: 0.5rem;
    -o-border-radius: 0.5rem;
-   height: 80px;
 }
 
 input[type="text"] {
@@ -250,4 +257,28 @@ input[type="text"] {
    max-width: 500px;
 }
 
+
+footer {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem;
+   background-color: rgb(217, 217, 217);
+}
+
+.footer-container {
+   width: 90%;
+   max-width: 1200px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.footer-container .social-media {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+}
 
