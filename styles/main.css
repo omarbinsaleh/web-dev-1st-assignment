@@ -129,6 +129,7 @@ header nav > .nav-container {
    align-items: center;
    gap: 3rem;
    flex-direction: column;
+   margin: 3rem 0 0 0;
 }
 
 
@@ -294,7 +295,10 @@ footer {
    display: flex;
    align-items: center;
    justify-content: space-between;
+   flex-direction: row;
 }
+
+
 
 .footer-container .social-media {
    display: flex;
